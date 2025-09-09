@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página 2</title>
+
+    <!-- Estilo aplicado apenas dentro desta página (CSS interno) -->
     <style>
-        h2{
+        /* Estilização dos títulos h2:
+           - Define família de fonte (Roboto > Arial > sans-serif caso não tenha as anteriores)
+           - Tamanho da fonte em 22px
+           - Cor em tom roxo claro
+           - Texto justificado */
+        h2 {
             font-family: Roboto, Arial, sans-serif;
             font-size: 22px;
             color: rgb(138, 102, 138);
@@ -15,21 +22,36 @@
 </head>
 <body>
     
-    <h1 style="background-color :rgb(212, 125, 19); color: white; margin: 40px 0;">Outra página do site</h1>
+    <!-- h1 estilizado diretamente no atributo "style":
+         - Fundo laranja
+         - Texto branco
+         - Margem de 40px em cima e embaixo -->
+    <h1 style="background-color: rgb(212, 125, 19); color: white; margin: 40px 0;">
+        Outra página do site
+    </h1>
 
+    <!-- h2 estilizado pelo CSS interno -->
     <h2>Entre em contato:</h2>
 
+    <!-- Link que abre cliente de e-mail para enviar mensagem -->
     <p>
-    <a href="mailto:helpcenter@fiap.com.br" target="_black">helpcenter@fiap.com.br</a>
+        <a href="mailto:helpcenter@fiap.com.br" target="_blank">helpcenter@fiap.com.br</a>
     </p>
-    <a href="tel:1197654-6752">Ou ligue para o help center</a>
-    </p>
-    <a href="./images/img.jpg" download>Clique para baixar vírus</a>
-    </p>
-    <a href="./index.html">Página 1</a>
-    </p>
-    
 
+    <!-- Link que permite ligação telefônica (funciona em dispositivos com app de chamada) -->
+    <p>
+        <a href="tel:1197654-6752">Ou ligue para o help center</a>
+    </p>
+
+    <!-- Link que inicia download de um arquivo (nesse caso, imagem) -->
+    <p>
+        <a href="./images/img.jpg" download>Clique para baixar vírus</a>
+    </p>
+
+    <!-- Link de navegação que volta para a Página 1 -->
+    <p>
+        <a href="./index.html">Página 1</a>
+    </p>
 
 </body>
 </html>
