@@ -1,8 +1,20 @@
+/* Estilos aplicados a todos os parágrafos <p> */
 p {
+    /* Define a família da fonte: tenta usar Roboto, se não tiver usa Calibri */
     font-family: Roboto, Calibri;
+
+    /* Define o peso da fonte (700 = negrito) */
     font-weight: 700;
-    font-size: 18x;
+
+    /* Define o tamanho da fonte (⚠️ aqui tá com '18x', o correto seria '18px') */
+    font-size: 18px;
+
+    /* Define a cor do texto no formato RGB (um lilás puxado para o roxo) */
     color: rgb(175, 123, 175);
+
+    /* Faz o alinhamento justificado (texto alinhado dos dois lados) */
     text-align: justify;
-    line-height:30x;
+
+    /* Define o espaçamento entre linhas (⚠️ aqui tá '30x', o correto seria '30px') */
+    line-height: 30px;
 }
